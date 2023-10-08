@@ -2137,3 +2137,67 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 571.449392 seconds.
+  path: Assets/Scenes/Levels/Level1.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Levels/Level1.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '966fd929ce76565d8c9ba85247f7bc57') in 0.020460 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 229.984936 seconds.
+  path: Assets/Materials/Blue Orb.mat
+  artifactKey: Guid(c2e18cc14654b4476aaf62729613ed7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Blue Orb.mat using Guid(c2e18cc14654b4476aaf62729613ed7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0786a7200b741fbf290683b70061f282') in 0.175851 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 142
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Materials/Yellow Orb.mat
+  artifactKey: Guid(252fb1532002d49069fb0c80b87a24de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Yellow Orb.mat using Guid(252fb1532002d49069fb0c80b87a24de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8515ff2c44fedbf65d3940722073428c') in 0.006465 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 140
+========================================================================
+Received Import Request.
+  Time since last request: 14.514301 seconds.
+  path: Assets/Materials/Green Transparent.mat
+  artifactKey: Guid(bc219398dd6c747b99187667b43294d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Green Transparent.mat using Guid(bc219398dd6c747b99187667b43294d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9c29cc59ddf825d1dd0b826ec985edf') in 0.007791 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 7.975801 seconds.
+  path: Assets/Materials/Red Transparent.mat
+  artifactKey: Guid(eed0b99ede88c45ea9d532d621c94e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Red Transparent.mat using Guid(eed0b99ede88c45ea9d532d621c94e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4de25e7f90ee0de876c7e828b2fe6b8b') in 0.012632 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 2.541598 seconds.
+  path: Assets/Prefabs/Blue Orb.prefab
+  artifactKey: Guid(ac1ed6235128244b9a63d6b23030bfea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Blue Orb.prefab using Guid(ac1ed6235128244b9a63d6b23030bfea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a61ac6328c9e8cf156a914e44ca7893') in 0.053961 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 150
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Prefabs/Trap.prefab
+  artifactKey: Guid(39c6bfeeb28a7459ba4dbcd17dac92c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Trap.prefab using Guid(39c6bfeeb28a7459ba4dbcd17dac92c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9286094b168c257527e4463805957b38') in 0.007029 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Prefabs/Yellow Orb.prefab
+  artifactKey: Guid(6c647ee388ce44a338d93606399aeb0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Yellow Orb.prefab using Guid(6c647ee388ce44a338d93606399aeb0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a464ea22763d6d368f7a9d69b72b00f3') in 0.028032 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 154
