@@ -1,51 +1,37 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class CameraMovement : MonoBehaviour
 {
-    [SerializeField]
-    private float _mouseSensitivity = 5.0f;
-    private float _rotationX;
-    private float _rotationY;
-    
-    [SerializeField]
-    private Transform _target;
-    
-    [SerializeField]
-    private float _distanceFromTarget = 3.0f;
+    [SerializeField] private float mouseSensitivity = 5.0f;
+    [SerializeField] private Transform target;
+    [SerializeField] private Transform head;
+    [SerializeField] private float distanceFromTarget = 3.0f;
+    [SerializeField] private float smoothTime = 0.2f;
+    [SerializeField] private Vector2 rotationXMinMax = new Vector2(-40, 40);
 
     private Vector3 _currentRotation;
-
     private Vector3 _smoothVelocity = Vector3.zero;
-
-    [SerializeField]
-    private float _smoothTime = 0.2f;
-
-    private Vector2 _rotationXMinMax = new Vector2(-40, 40);
 
     private void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        float mouseX = Input.GetAxis("Mouse X") * _mouseSensitivity;
-        float mouseY = Input.GetAxis("Mouse Y") * _mouseSensitivity;
+        float mouseX = Input.GetAxis("Mouse X") * mouseSensitivity;
+        float mouseY = Input.GetAxis("Mouse Y") * mouseSensitivity;
 
-        _rotationX += mouseX;
-        _rotationY += mouseY;
+        _currentRotation.x += mouseX;
+        _currentRotation.y += mouseY;
 
-        _rotationX = Mathf.Clamp(_rotationX, _rotationXMinMax.x, _rotationXMinMax.y);
+        _currentRotation.x = Mathf.Clamp(_currentRotation.x, rotationXMinMax.x, rotationXMinMax.y);
 
-        Vector3 nextRotation = new Vector3(_rotationX, _rotationY);
+        Vector3 nextRotation = new Vector3(_currentRotation.x, _currentRotation.y);
 
-        _currentRotation = Vector3.SmoothDamp(_currentRotation, nextRotation, ref _smoothVelocity, _smoothTime);
+        _currentRotation = Vector3.SmoothDamp(_currentRotation, nextRotation, ref _smoothVelocity, smoothTime);
         transform.localEulerAngles = _currentRotation;
 
-        transform.position = _target.position - transform.forward * _distanceFromTarget;
+        transform.position = target.position - transform.forward * distanceFromTarget;
     }
 }
